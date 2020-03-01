@@ -1,11 +1,11 @@
 <html>
  <head>
-  <title>Prueba de PHP</title>
+  <title>Prueba de Despliegue con Jenkins</title>
  </head>
  <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
+ <?php echo '<p>Bienvenidos al IES Ingeniero de la Cierva</p>'; ?>
 Modificado el 29 de febrero
-<br/>Modificación para desplegar
+<br/>Desplegado vía Jenkins
   <?php phpinfo(); ?>
  </body>
 </html>
