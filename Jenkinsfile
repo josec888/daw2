@@ -8,7 +8,7 @@ pipeline {
       }
       steps {
         sh 'ssh root@192.168.2.36 systemctl restart apache2'
-        sh 'ssh root@192.168.2.36 systemctl restart nginx'
+        sh 'ssh root@192.168.2.37 systemctl restart nginx'
       }
     }
   }
