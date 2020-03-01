@@ -3,8 +3,10 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh '/bin/nc -vz 192.168.2.36'
-        sh '/bin/nc -vz 192.168.2.37'
+        sh '/bin/nc -vz 192.168.2.36 22'
+        sh '/bin/nc -vz 192.168.2.36 80'
+        sh '/bin/nc -vz 192.168.2.37 22'
+        sh '/bin/nc -vz 192.168.2.37 80'
       }
     }
     stage('Despliegue') {
