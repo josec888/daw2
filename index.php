@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php echo '<p>Hola Mundo</p>'; ?>
-Modificado el 25 de febrero
+Modificado el 29 de febrero
 <br/>Modificación para desplegar
   <?php phpinfo(); ?>
  </body>
